@@ -1,5 +1,59 @@
 ## TCC_pololos
 ----------
+## DataBase (MySQL)
+ 
+- **DATABASE pololos:** El nombre de la base de datos.
+ 
+- **TABLE usuario:** Aquí se almacenarán los datos de Login, cómo el usuario y la contraneña
+ 
+- **TABLE persona:** Contiene la informacion personal de cada entidad, cómo nombre, numero de cedula y si es requerido, la dirección y el telefono.
+ 
+- **TABLE cliente:** Solo contiene un campo, y es para indicar si la persona registrada es de tipo cliente.
+ 
+- **TABLE ingrediente:** Son la lista de ingredientes que se pueden adicionar, sólo contiene el *nombre* y el *precio*. 
+ 
+- **TABLE categoria:** Para facilitar a los clientes al momento de elejir sus platos se ha creado la tabla categoria, pues estos pueden ser de tipo *Dulce*, *salado*, *picante* y otros.
+ 
+- **TABLE comida:** Cada plato que el restaurante posea estará registrado aqui, con campos cómo el *valor, precio y categoria*.
+ 
+- **TABLE proveedor:** Debido a que los ingredientes se pueden acabar se es necesario tener una tabla de proveedor, quien es el encargado de suministrar dicho ingrediente al establecimiento, aqui se encuentran los datos basicos de el.
+ 
+- **TABLE ingrediente_x_comida:**  Se asignan los posibles ingredientes que ya posee la comida y además los ingredientes que se pueden adicionar.
+ 
+- **TABLE marca:** Marca de los productos
+ 
+- **TABLE producto:** Nombres de los productos
+ 
+- **TABLE marca_x_producto:** Relacion entre productos, por marca y tipo
+ 
+- **TABLE proveedor_x_producto:** Relacion que conecta los proveedores con los productos que puede suministrar
+ 
+- **TABLE factura_compra:** Relaciona un pedido con una factura
+ 
+- **TABLE compra:** <span style="color:#ff8000">Es la compra de los proveedores?</span>.
+ 
+- **TABLE area_empleado:** <span style="color:#ff8000">?</span>.
+ 
+- **TABLE empleado:** Crea un empleado, con una llave foranea en persona, tambien con su sueldo y ´prestaciones.
+ 
+- **TABLE factura_venta:** Relaciona una factura con la venta de los empleados
+ 
+- **TABLE metodo_pago:** Crea los metodos de pago posibles
+ 
+- **TABLE venta:** <span style="color:#ff8000">Sólo se puede vender un plato?</span>.
+ 
+- **TABLE mesa:** Establece las caracteristicas de cada mesa, como numero de usuarios y su identidicador, <span style="color:#ff8000">Sería mejor ponerlo tipo **varchar**</span>
+ 
+- **TABLE empleado_x_mesa:** establece quien es el empleado que atenderá cada mesa.
+  
+- **Notas DB**
+  - Falta relacionar la venta con un empleado
+
+  - Açadir los recursos como direcciones a imagenes u objetos 3d
+
+----------
+
+
 ## How use API *POST request*
 
 - **Usuarios sin registro:** Para los usuarios que deseen usar el servicio sin registrarse accederán de la siguiente manera, donde **Table** se refiera al numero o nombre de mesa y **Position** es el numero de silla donde se encuentra, esos datos son automatiocos y preconfigurados en cada mesa.
