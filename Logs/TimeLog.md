@@ -8,3 +8,4 @@ Para organizar un poco los tiempos empleados diseñe este archivo para mostrar l
 | Reunion 1 	| 33             	| Init Repo    	
 | Server      	| 40               	| commit: "Crear el servidor y estructurar el API"
 | README      	| 26               	| commit: "Editar README con la base de datos"   	
+| Server      	| 40               	| commit: "API: Usuario sin registro"
