@@ -31,9 +31,9 @@
  
 - **TABLE factura_compra:** Relaciona un pedido con una factura
  
-- **TABLE compra:** <span style="color:#ff8000">Es la compra de los proveedores?</span>.
+- **TABLE compra:** <span style="color:#ff8000">Es la compra de los proveedores?</span>. Si, esta tabla hace referencia a las compras que hace el restaurante a los diferentes proveedores
  
-- **TABLE area_empleado:** <span style="color:#ff8000">?</span>.
+- **TABLE area_empleado:** <span style="color:#ff8000">?</span>. Esta tabla se refiere al area donde se trabaja cada empleado, es decir, cocina, limpieza o mesenero
  
 - **TABLE empleado:** Crea un empleado, con una llave foranea en persona, tambien con su sueldo y ´prestaciones.
  
@@ -41,7 +41,7 @@
  
 - **TABLE metodo_pago:** Crea los metodos de pago posibles
  
-- **TABLE venta:** <span style="color:#ff8000">Sólo se puede vender un plato?</span>.
+- **TABLE venta:** <span style="color:#ff8000">Sólo se puede vender un plato?</span>.  
  
 - **TABLE mesa:** Establece las caracteristicas de cada mesa, como numero de usuarios y su identidicador, <span style="color:#ff8000">Sería mejor ponerlo tipo **varchar**</span>
  
@@ -54,6 +54,7 @@
   
   - Açadir el campo API_KEY en los usuarios sin registro
 
+  - Ya añadi el campo foto en las tablas ingredientes y comida para poder almacenar 
 ----------
 
 
