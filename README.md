@@ -1,4 +1,5 @@
 ## TCC_pololos
+<span style="color:#ff8000">Usted me dijo que la caja tiene acceso por si hay errores, y eso de qué manera se hace?, una página web?</span>
 ----------
 ## DataBase (MySQL)
  
@@ -50,13 +51,15 @@
   - Falta relacionar la venta con un empleado
 
   - Açadir los recursos como direcciones a imagenes u objetos 3d
+  
+  - Açadir el campo API_KEY en los usuarios sin registro
 
 ----------
 
 
 ## How use API *POST request*
 
-- **Usuarios sin registro:** Para los usuarios que deseen usar el servicio sin registrarse accederán de la siguiente manera, donde **Table** se refiera al numero o nombre de mesa y **Position** es el numero de silla donde se encuentra, esos datos son automatiocos y preconfigurados en cada mesa.
+- **Usuarios sin registro:** Para los usuarios que deseen usar el servicio sin registrarse accederán de la siguiente manera, donde **Table** se refiera al numero o nombre de mesa y **Position** es el numero de silla donde se encuentra, esos datos son automatiocos y preconfigurados en cada mesa. **usuario_sin_registro**
   
   ```JavaScript 
     {
@@ -66,7 +69,7 @@
     }
   ```
 
-- **Registrar usuario:** Los usuarios que desen tener acceso a delivery, promociones y otros beneficios y se dessen registrar
+- **Registrar usuario:** Los usuarios que desen tener acceso a delivery, promociones y otros beneficios y se dessen registrar. **registrar_usuario**
     
     ```JavaScript 
     {        
@@ -75,10 +78,11 @@
         "telefono"  : ... ,
         "direccion" : ... ,
         "usuario"   : ... ,
-        "contrasenia" : ... 
+        "contrasenia" : ...,
+        "API_KEY": ......
     }
   ```
-- **Login:** Si el usuario se encuentra registrado la respuesta será el frame *API_KEY*, de otra manera la respuesta será **LOG**
+- **Login:** Si el usuario se encuentra registrado la respuesta será el frame *API_KEY*, de otra manera la respuesta será **LOG**. **login**
     ```JavaScript 
     {
         "usuario" : ...
