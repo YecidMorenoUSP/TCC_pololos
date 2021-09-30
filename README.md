@@ -48,11 +48,11 @@
 - **TABLE empleado_x_mesa:** establece quien es el empleado que atenderá cada mesa.
   
 - **Notas DB**
-  - Añadi relacionar la venta con un empleado
+  - Añadir relacionar la venta con un empleado
 
-  - Añadi los recursos como direcciones a imagenes u objetos 3d
+  - Añadir los recursos como direcciones a imagenes u objetos 3d
   
-  - Añadi el campo API_KEY en los usuarios sin registro
+  - Añadir el campo API_KEY en los usuarios sin registro
 
   - Ya añadi el campo foto en las tablas ingredientes y comida para poder almacenar 
 ----------
