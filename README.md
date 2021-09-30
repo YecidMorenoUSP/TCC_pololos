@@ -55,6 +55,7 @@
   - Añadir el campo API_KEY en los usuarios sin registro
 
   - Ya añadi el campo foto en las tablas ingredientes y comida para poder almacenar 
+  - RESPUESTA A LAS FUNCIONES DE LA CAJA: Cuando le dije eso de que por si hay algun error la caja tuviera acceso, quise decir, que por ejemplo no se proceso un pago o se duplico una orden. En caja ingresando su id de empleado podria manipular esos problemas. Bien sea eliminando lo que se duplico o viendo si no se proceso algun pago
 ----------
 
 
